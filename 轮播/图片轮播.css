@@ -1,0 +1,11 @@
+.box1{
+animation:mymove 15s infinite;
+position: center;
+}
+@keyframes mymove
+{
+15%{background-image: url(./img/img-3ef2ac18eaf4fd859acbda752b28052f.jpg); background-repeat: no-repeat;width:500px;height: 500px;background-size: contain;margin-top: 100px;margin-left: 380px;}
+45%{background-image: url(./img/img-7eb69c530f6d1e049f4ace34eebfc756.jpg); background-repeat: no-repeat;width:500px;height: 500px;background-size: contain;margin-top: 100px;margin-left: 380px;}
+75%{background-image: url(./img/img-01599f87bc5f1a71f0c932d9b61fa69e.jpg); background-repeat: no-repeat;width:500px;height: 500px;background-size: contain;margin-top: 20px;margin-left: 450px;}
+100%{background-image: url(./img/img-4041c38302faae3d5034df90b4dcc8de.jpg); background-repeat: no-repeat;width:500px;height: 500px;background-size: contain;margin-top: 20px;margin-left: 460px;}
+}
